@@ -1,0 +1,138 @@
+/* Layout: vinkort. Topvalg som stort etiketkort, resten i et jævnt gitter af flaskekort. */
+:root {
+  --bg: #f4f2f6;
+  --surface: #ffffff;
+  --shelf: #ebe5ee;
+  --fg: #231a2b;
+  --muted: #6c6275;
+  --line: #ddd6e2;
+  --accent: #6e1f3f;
+  --on-accent: #ffffff;
+  --gold: #8a6420;
+  --label: #f7f3ea;
+  --label-ink: #4a3a2a;
+  --glass-rod: #4b1d33;
+  --glass-hvid: #a9a55c;
+  --glass-mousserende: #2f4a38;
+  --glass-rose: #d9859a;
+  --capsule: #2a1a24;
+  --capsule-gold: #b08a3c;
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-num: "Figtree", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Figtree", -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171219; --surface: #221b26; --shelf: #2e2533; --fg: #f3eef5; --muted: #ab9fb3;
+    --line: #3b3141; --accent: #d9799c; --on-accent: #2a0f1b; --gold: #d8b168;
+    --glass-rod: #8c3a5c; --glass-mousserende: #55806a; --capsule: #120c10;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171219; --surface: #221b26; --shelf: #2e2533; --fg: #f3eef5; --muted: #ab9fb3;
+  --line: #3b3141; --accent: #d9799c; --on-accent: #2a0f1b; --gold: #d8b168;
+  --glass-rod: #8c3a5c; --glass-mousserende: #55806a; --capsule: #120c10;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 400 15px/1.5 var(--font-body);
+  font-variant-numeric: tabular-nums;
+}
+.page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-block: 40px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 32px;
+}
+.page > * { min-width: 0; }
+.notice {
+  margin: 0; font-size: 13px; color: var(--muted);
+  border: 1px dashed var(--line); border-radius: 8px; padding: 10px 14px;
+}
+header { display: grid; gap: 6px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; color: var(--gold); }
+h1 { margin: 0; font: 500 clamp(36px, 7vw, 56px)/1.05 var(--font-display); text-wrap: balance; }
+.lede { margin: 6px 0 0; color: var(--muted); max-width: 62ch; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-block: 1px solid var(--line); }
+.stat { padding: 14px 16px 14px 0; display: grid; gap: 2px; min-width: 0; }
+.stat + .stat { padding-left: 16px; border-left: 1px solid var(--line); }
+.stat b { font: 600 28px/1.1 var(--font-num); letter-spacing: -.01em; }
+.stat span { font-size: 13px; color: var(--muted); }
+h2 { margin: 0 0 14px; font: 500 24px/1.2 var(--font-display); }
+
+.shelf {
+  background: var(--shelf); position: relative; overflow: hidden;
+  display: flex; align-items: flex-end; justify-content: center; padding: 20px 16px 0;
+}
+.bottle { display: block; height: 100%; width: auto; max-width: 100%; }
+.bottle .glass { fill: var(--glass-rod); }
+.bottle .cap { fill: var(--capsule); }
+.bottle .lab { fill: var(--label); }
+.bottle .ink { fill: var(--label-ink); }
+.hvid .bottle .glass { fill: var(--glass-hvid); }
+.mousserende .bottle .glass { fill: var(--glass-mousserende); }
+.mousserende .bottle .cap { fill: var(--capsule-gold); }
+.rose .bottle .glass { fill: var(--glass-rose); }
+.badge {
+  position: absolute; top: 12px; left: 12px;
+  background: var(--accent); color: var(--on-accent);
+  font-weight: 600; font-size: 14px; padding: 3px 10px; border-radius: 999px;
+}
+.type {
+  position: absolute; top: 12px; right: 12px;
+  font-size: 12px; font-weight: 600; color: var(--muted);
+}
+
+.top {
+  display: grid; grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  background: var(--surface); border-radius: 14px; overflow: hidden;
+}
+.top .shelf { height: 360px; }
+.top-body { padding: 28px; display: grid; gap: 16px; align-content: center; min-width: 0; }
+.top-body h3 { margin: 0; font: 500 clamp(26px, 4vw, 34px)/1.15 var(--font-display); text-wrap: balance; }
+.why { margin: 0; color: var(--muted); max-width: 56ch; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+.card { background: var(--surface); border-radius: 14px; overflow: hidden; display: grid; grid-template-rows: 220px 1fr; min-width: 0; }
+.card-body { padding: 18px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.card h3 { margin: 0; font: 500 21px/1.2 var(--font-display); text-wrap: balance; }
+.producer { font-size: 13px; font-weight: 600; color: var(--gold); }
+
+.price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.price b { font: 700 28px/1 var(--font-num); letter-spacing: -.01em; }
+.price s { color: var(--muted); }
+.price small { color: var(--muted); font-size: 13px; }
+
+dl { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; }
+dl div { min-width: 0; }
+dt { font-size: 12px; color: var(--muted); }
+dd { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
+
+a.buy { justify-self: start; color: var(--accent); font-weight: 600; text-decoration: none; border-bottom: 1.5px solid currentColor; padding-bottom: 1px; }
+a.buy:hover { opacity: .8; }
+a.buy:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.empty { background: var(--surface); border-radius: 14px; padding: 28px; color: var(--muted); }
+footer { display: grid; gap: 4px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+footer b { color: var(--fg); font-weight: 600; }
+
+@media (max-width: 640px) {
+  .page { padding-block: 24px 40px; gap: 24px; }
+  .top { grid-template-columns: minmax(0, 1fr); }
+  .top .shelf { height: 260px; }
+  .top-body { padding: 20px; }
+  .stat { padding-right: 8px; }
+  .stat + .stat { padding-left: 10px; }
+  .stat b { font-size: 22px; }
+}
+
+.photo { display: block; height: 100%; width: auto; max-width: 100%; object-fit: contain; }
+.status { color: var(--muted); }

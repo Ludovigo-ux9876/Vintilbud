@@ -1,0 +1,29 @@
+{
+  "name": "Bourgogne-vintilbud",
+  "short_name": "Vintilbud",
+  "description": "Dagens tilbud på vin fra Bourgogne hos danske vinforhandlere.",
+  "lang": "da",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f2f6",
+  "theme_color": "#6e1f3f",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
