@@ -1,7 +1,7 @@
 {
   "example": false,
-  "dateLabel": "Søndag 8. november 2026",
-  "headline": "8 relevante tilbud fundet. Bedst er Louis Jadot Beaune 1er Cru Aux Cras 2020 til 399 kr. (før 689 kr.) hos Kjær & Sommerfeldt, uden mængdekrav.",
+  "dateLabel": "Mandag 9. november 2026",
+  "headline": "10 relevante Bourgogne-tilbud fundet. Bedst er Louis Jadot Beaune 1er Cru Aux Cras 2020 til 399 kr. (før 689 kr.) hos Kjær & Sommerfeldt, uden mængdekrav.",
   "offers": [
     {
       "producer": "Maison Louis Jadot",
@@ -21,6 +21,23 @@
       "why": "Premier Cru fra Jadot med moden årgang, 42 % under førprisen og uden mængdekrav."
     },
     {
+      "producer": "Domaine Michel Rebourgeon",
+      "wine": "Beaune 1er Cru Les Chouacheux",
+      "appellation": "Beaune 1er Cru",
+      "vintage": "2023",
+      "colour": "rod",
+      "offerPrice": "404,95 kr.",
+      "normalPrice": "709,95 kr.",
+      "priceNote": "pr. flaske ved 6 fl.; sammenligningsprisen er 1-flaske-prisen. Mærket \"Weekend\"",
+      "discountPct": 43,
+      "minPurchase": "6 flasker",
+      "validUntil": "Ikke oplyst (weekendtilbud)",
+      "retailer": "Supervin",
+      "url": "https://www.supervin.dk/michel-rebourgeon-beaune-1er-cru-les-chouacheux-2023",
+      "image": "https://magento.supervin.dk/media/catalog/product/3/3/3320512423_flaske_360_1.png",
+      "why": "Premier Cru fra stærk årgang 2023 til godt 400 kr. ved 6 flasker."
+    },
+    {
       "producer": "Domaine Bouchard Père & Fils",
       "wine": "Beaune du Château 1er Cru",
       "appellation": "Beaune 1er Cru",
@@ -35,40 +52,23 @@
       "retailer": "Erik Sørensen Vin",
       "url": "https://eriksorensenvin.dk/produkter/rodvin-frankrig-bourgogne-bouchard-pere-et-fils-beaune-du-chateau-1-cru-2023",
       "image": "https://checkout.eriksorensenvin.dk/wp-content/uploads/2026/08/rodvin-frankrig-bourgogne-bouchard-pere-et-fils-beaune-du-chateau-for.png",
-      "why": "Premier Cru fra stort domaine med reel normalpris og fast slutdato, uden mængdekrav."
+      "why": "Klassisk Premier Cru-blend fra Bouchard i 2023 uden mængdekrav, gyldig året ud."
     },
     {
-      "producer": "Domaine Michel Rebourgeon",
-      "wine": "Volnay 1er Cru Carelle Sous La Chapelle",
-      "appellation": "Volnay 1er Cru",
+      "producer": "Domaine Jean Monnier & Fils",
+      "wine": "Meursault 1er Cru Les Genevrières",
+      "appellation": "Meursault 1er Cru",
       "vintage": "2023",
-      "colour": "rod",
-      "offerPrice": "554,95 kr.",
-      "normalPrice": "909,95 kr.",
-      "priceNote": "pr. flaske ved 6 fl.; sammenligningsprisen er 1-flaske-prisen. Robert Parker 91-93 point (oplyst af forhandleren)",
-      "discountPct": 39,
+      "colour": "hvid",
+      "offerPrice": "999,95 kr.",
+      "normalPrice": "1.399,95 kr.",
+      "priceNote": "pr. flaske ved 6 fl.; sammenligningsprisen er 1-flaske-prisen. Flaskehalsen 98, Vinonyme 97 (oplyst af forhandleren)",
+      "discountPct": 29,
       "minPurchase": "6 flasker",
-      "validUntil": "Weekendtilbud; ingen dato oplyst",
+      "validUntil": "Ikke oplyst",
       "retailer": "Supervin",
-      "url": "https://www.supervin.dk/domaine-michel-rebourgeon-volnay-1-er-cru-carelle-sous-la-chapelle-23",
-      "image": null,
-      "why": "Volnay Premier Cru i god årgang til under 600 kr. ved 6 flasker."
-    },
-    {
-      "producer": "Domaine Michel Rebourgeon",
-      "wine": "Beaune 1er Cru Les Chouacheux",
-      "appellation": "Beaune 1er Cru",
-      "vintage": "2023",
-      "colour": "rod",
-      "offerPrice": "404,95 kr.",
-      "normalPrice": "709,95 kr.",
-      "priceNote": "pr. flaske ved 6 fl.; sammenligningsprisen er 1-flaske-prisen. Økologisk",
-      "discountPct": 42,
-      "minPurchase": "6 flasker",
-      "validUntil": "Weekendtilbud; ingen dato oplyst",
-      "retailer": "Supervin",
-      "url": "https://www.supervin.dk/michel-rebourgeon-beaune-1er-cru-les-chouacheux-2023",
-      "image": "https://magento.supervin.dk/media/catalog/product/3/3/3320512423_flaske_360_1.png",
+      "url": "https://www.supervin.dk/meursault-1er-cru-genevrieres-2023",
+      "image": "https://magento.supervin.dk/media/catalog/product/3/3/331191723_flaske_360_1.png",
       "why": ""
     },
     {
@@ -79,7 +79,7 @@
       "colour": "rod",
       "offerPrice": "199 kr.",
       "normalPrice": "339 kr.",
-      "priceNote": "pr. flaske",
+      "priceNote": "pr. flaske. Vinoverset 94, Flaskehalsen 93 (oplyst af forhandleren)",
       "discountPct": 41,
       "minPurchase": "Ingen (1 flaske)",
       "validUntil": "Ikke oplyst",
@@ -89,20 +89,20 @@
       "why": ""
     },
     {
-      "producer": "Marchand-Tawse",
-      "wine": "Pommard Les Saussilles",
-      "appellation": "Pommard",
+      "producer": "Domaine Prieur-Brunet",
+      "wine": "Santenay Blanc",
+      "appellation": "Santenay",
       "vintage": "2022",
-      "colour": "rod",
-      "offerPrice": "475 kr.",
-      "normalPrice": "690 kr.",
+      "colour": "hvid",
+      "offerPrice": "289 kr.",
+      "normalPrice": "493 kr.",
       "priceNote": "pr. flaske",
-      "discountPct": 31,
+      "discountPct": 41,
       "minPurchase": "Ingen (1 flaske)",
-      "validUntil": "T.o.m. 31/12 (årstal ikke oplyst)",
-      "retailer": "Erik Sørensen Vin",
-      "url": "https://eriksorensenvin.dk/produkter/rodvin-frankrig-bourgogne-marchand-tawse-pommard-les-saussilles-2022",
-      "image": null,
+      "validUntil": "Ikke oplyst",
+      "retailer": "Kjær & Sommerfeldt",
+      "url": "https://www.kjaersommerfeldt.dk/vin/hvidvin/prieur-brunet-santenay-blanc-bourgogne-cote-de-beaune-2022/p-1026933/",
+      "image": "https://cdn.kjaersommerfeldt.dk/products/1026933/hvidvin-chardonnay-frankrig-bourgogne-domaine-prieur-brunet-santenay-blanc-2.png?width=0&height=300&format=webp&quality=80&rmode=Crop",
       "why": ""
     },
     {
@@ -119,7 +119,41 @@
       "validUntil": "T.o.m. 31/12 (årstal ikke oplyst)",
       "retailer": "Erik Sørensen Vin",
       "url": "https://eriksorensenvin.dk/produkter/hvidvin-frankrig-bourgogne-hvidvin-frankrig-bourgogne-bouchard-pere-et-fils-beaune-du-chateau-1-cru-2023",
-      "image": null,
+      "image": "https://checkout.eriksorensenvin.dk/wp-content/uploads/2026/10/hvidvin-frankrig-bourgogne-bouchard-pere-et-fils-beaune-du-chateau-blanc-premier-cru-for.png",
+      "why": ""
+    },
+    {
+      "producer": "Domaine Chavy-Chouet",
+      "wine": "Bourgogne Rouge La Taupe",
+      "appellation": "Bourgogne",
+      "vintage": "2021",
+      "colour": "rod",
+      "offerPrice": "235 kr.",
+      "normalPrice": "420 kr.",
+      "priceNote": "pr. flaske ved 2 fl. (fast mængderabat). Din Vinguide 92 (oplyst af forhandleren)",
+      "discountPct": 44,
+      "minPurchase": "2 flasker",
+      "validUntil": "Ikke oplyst",
+      "retailer": "Erik Sørensen Vin",
+      "url": "https://eriksorensenvin.dk/produkter/rodvin-frankrig-bourgogne-chavy-chouet-bourgogne-rouge-la-taupe-2021",
+      "image": "https://checkout.eriksorensenvin.dk/wp-content/uploads/2026/04/540121_rodvin-frankrig-bourgogne-chavy-chouet-la-taupe-bourgogne-rouge.png",
+      "why": ""
+    },
+    {
+      "producer": "Marchand-Tawse",
+      "wine": "Pommard Les Saussilles",
+      "appellation": "Pommard",
+      "vintage": "2022",
+      "colour": "rod",
+      "offerPrice": "475 kr.",
+      "normalPrice": "690 kr.",
+      "priceNote": "pr. flaske (landsbyvin, ikke 1er Cru)",
+      "discountPct": 31,
+      "minPurchase": "Ingen (1 flaske)",
+      "validUntil": "T.o.m. 31/12 (årstal ikke oplyst)",
+      "retailer": "Erik Sørensen Vin",
+      "url": "https://eriksorensenvin.dk/produkter/rodvin-frankrig-bourgogne-marchand-tawse-pommard-les-saussilles-2022",
+      "image": "https://checkout.eriksorensenvin.dk/wp-content/uploads/2026/05/rodvin-frankrig-bourgogne-marchand-tawse-pommard-les-saussilles-for.png",
       "why": ""
     },
     {
@@ -130,7 +164,7 @@
       "colour": "hvid",
       "offerPrice": "199 kr.",
       "normalPrice": "299 kr.",
-      "priceNote": "pr. flaske",
+      "priceNote": "pr. flaske. Vinoverset 93 (oplyst af forhandleren)",
       "discountPct": 33,
       "minPurchase": "Ingen (1 flaske)",
       "validUntil": "Ikke oplyst",
@@ -140,23 +174,7 @@
       "why": ""
     }
   ],
-  "checkedRetailers": [
-    "Supervin (delvist)",
-    "Jysk Vin (delvist)",
-    "Andrup Vin (delvist)",
-    "Erik Sørensen Vin",
-    "Kjær & Sommerfeldt (delvist)",
-    "Theis Vine (delvist)",
-    "Bichel (delvist)",
-    "Laudrup Vin (delvist)",
-    "Philipson Wine (delvist)"
-  ],
-  "unreachable": [
-    "Vinova: siderne kunne ikke hentes",
-    "Vinspecialisten: siderne kunne ikke hentes",
-    "Laudrup Vin: produktsider kunne ikke hentes; kun oversigtssider",
-    "Philipson Wine: Bourgogne-lagersalg blev hentet, men produktlisten var ikke læsbar",
-    "Andrup Vin: tilbudssiden viste ingen læsbare produkter"
-  ],
-  "note": "Overstreget pris: førpris hos Kjær & Sommerfeldt og normalpris hos Erik Sørensen Vin. Hos Supervin er sammenligningsprisen 1-flaske-prisen, og tilbudsprisen kræver 6 flasker; den er ikke nødvendigvis en reel normalpris. Supervins tilbud er mærket som weekendtilbud uden dato og kan udløbe snart. Rabatprocenter er sidernes egne mærker; beregnet ud fra priserne giver Les Chouacheux ca. 43 %. Rebourgeon Carelle, Marchand-Tawse og Bouchard Blanc er kun set på oversigtssider, derfor intet flaskebillede. Fravalgt: Theis Vine Taupenot-Merme Gevrey-Chambertin 2023 (739,95 kr., før 1.059,95 kr.), da prisen ikke kunne bekræftes i sidens ordrette tekst; Laudrups Paul Gauffroy Rully 1er Cru og Louis Latour Givry (kun \"Fra\"-pris og \"Spar 50-51 % ved køb af 3/6 stk\" uden sammenligningspris); Supervins billige regionale Pinot Noir (fx Bertrand de Monceny 79,95 kr. ved 6 fl.) og Jysk Vins mængdepriser (ca. 10-25 %) som mindre interessante; Kjær & Sommerfeldts Fèvre Chablis 1er Cru Vaulorent (udsolgt). Dækning er ikke fuldstændig: kun udvalgte lister og sider pr. forhandler blev læst, flere sider var afkortede, og mange direkte sider blev afvist. Point er kun nævnt, hvor forhandleren oplyser dem."
+  "checkedRetailers": ["Supervin (delvist)", "Jysk Vin (delvist)", "Andrup Vin (delvist)", "Erik Sørensen Vin", "Kjær & Sommerfeldt (delvist)", "Theis Vine (delvist)", "Bichel (delvist)", "Laudrup Vin (delvist)", "Vinova (delvist)", "Philipson Wine (delvist)", "Løgismose (delvist)", "Holte Vinlager (delvist)"],
+  "unreachable": ["Vinspecialisten: ingen webshop eller tilbudssider fundet", "Andrup Vin: Bourgogne-, Chablis- og tilbudssider viste bot-tjek eller tom produktliste", "Bichel: tilbudssidens Bourgogne-filter virkede ikke, og produktsider blev afvist", "Supervin og Jysk Vin: flere produktsider og Jysk Vins Bourgogne-kategori blev afvist"],
+  "note": "Overstreget pris: førpris hos Kjær & Sommerfeldt og normalpris hos Erik Sørensen Vin. Hos Supervin er sammenligningsprisen 1-flaske-prisen, og tilbudsprisen kræver 6 flasker; den er ikke nødvendigvis en reel normalpris. Hos Erik Sørensen kræver Chavy-Chouet køb af 2 flasker. Rabatprocenter er beregnet ud fra de to viste priser. Supervins Rebourgeon Volnay 1er Cru Carelle 2023 er udgået af tilbud (nu 754,95 kr. ved 6 fl.). Kun set på oversigtssider og derfor fravalgt: Supervins Rebourgeon Volnay 1er Cru Les Brouillards 2023 (554,95 kr. ved 6 fl., 1 fl. 909,95 kr.) og Jean Monnier Pommard 1er Cru Fremiers 2023 (449,95/649,95 kr.); Laudrups Philippe le Hardi Meursault 2022 (729 kr., før 1.204 kr.); Theis Vines Taupenot-Merme Gevrey-Chambertin 2023 (739,95 kr., før 1.059,95 kr.). Andre fravalg: Philipsons 6-flaskers priser (ca. 17 % rabat), Vinovas og Jysk Vins mindre mængderabatter samt Kjær & Sommerfeldts udsolgte Fèvre Chablis 1er Cru Vaulorent. Philipson og Jysk Vin har Black Week-kampagner på vej. Dækningen er ikke fuldstændig: kun første side af mange lister kunne læses, og mange produktsider blev afvist. Point er kun nævnt, hvor forhandleren oplyser dem."
 }
