@@ -1,7 +1,7 @@
 {
   "example": false,
-  "dateLabel": "Torsdag 19. november 2026",
-  "headline": "Over 40 relevante Bourgogne-tilbud fundet; 10 udvalgt, og bedst er Louis Jadot Beaune 1er Cru Aux Cras 2020 til 399 kr. (før 689 kr.) hos Kjær & Sommerfeldt, uden mængdekrav.",
+  "dateLabel": "Fredag 20. november 2026",
+  "headline": "Over 50 relevante Bourgogne-tilbud fundet; 10 udvalgt, og bedst er Louis Jadot Beaune 1er Cru Aux Cras 2020 til 399 kr. (før 689 kr.) hos Kjær & Sommerfeldt, uden mængdekrav.",
   "offers": [
     {
       "producer": "Maison Louis Jadot",
@@ -28,14 +28,14 @@
       "colour": "rod",
       "offerPrice": "395 kr.",
       "normalPrice": "705 kr.",
-      "priceNote": "pr. flaske, overstreget 'oprindelig pris'. På lager",
+      "priceNote": "pr. flaske ved køb af 1, overstreget 'oprindelig pris'. På lager",
       "discountPct": 44,
       "minPurchase": "Ingen (1 flaske)",
       "validUntil": "Ikke oplyst",
       "retailer": "Vinova",
       "url": "https://vinova.dk/vin/jean-michel-gaunoux-volnay-1er-cru-clos-des-chenes-2016/",
       "image": "https://vinova.dk/wp-content/uploads/2021/06/10015005.png",
-      "why": "Moden Volnay fra en af appellationens bedste Premier Cru-marker til under 400 kr."
+      "why": "Moden Volnay fra en af appellationens bedste marker til under 400 kr. – 44 % under den oprindelige pris."
     },
     {
       "producer": "Domaine Lignier-Michelot",
@@ -52,7 +52,7 @@
       "retailer": "Kjær & Sommerfeldt",
       "url": "https://www.kjaersommerfeldt.dk/vin/roedvin/domaine-lignier-michelot-clos-de-la-roche-grand-cru-bourgogne-cote-de-nuits-2021/p-1026209/",
       "image": "https://cdn.kjaersommerfeldt.dk/products/1026209/rodvin-frankrig-domaine-lignier-michelot-clos-de-la-roche-grand-cru-bourgogne.png?width=0&height=300&format=webp&quality=80&rmode=Crop",
-      "why": "Grand Cru fra Morey-Saint-Denis med næsten 1.300 kr. i besparelse pr. flaske."
+      "why": "Grand Cru fra Morey-Saint-Denis med 1.296 kr. i besparelse pr. flaske."
     },
     {
       "producer": "Paul Gauffroy",
@@ -62,9 +62,9 @@
       "colour": "rod",
       "offerPrice": "409 kr.",
       "normalPrice": "819 kr.",
-      "priceNote": "pr. flaske, overstreget pris uden betegnelse (aflæst på oversigtsside)",
-      "discountPct": 50,
-      "minPurchase": "Ingen (1 flaske)",
+      "priceNote": "pr. flaske, overstreget pris uden betegnelse, 'SPAR 51%' (aflæst på oversigtsside)",
+      "discountPct": 51,
+      "minPurchase": "Ingen oplyst",
       "validUntil": "Ikke oplyst",
       "retailer": "Laudrup Vin",
       "url": "https://laudrup.dk/products/paul-gauffroy-gevrey-chambertin-rouge",
@@ -89,6 +89,23 @@
       "why": ""
     },
     {
+      "producer": "Domaine Vincent Latour",
+      "wine": "Meursault Cuvée Saint Jean",
+      "appellation": "Meursault",
+      "vintage": "2025",
+      "colour": "hvid",
+      "offerPrice": "449,95 kr.",
+      "normalPrice": "804,95 kr.",
+      "priceNote": "pr. flaske ved 6 fl.; overstreget pris er 1-flaskeprisen",
+      "discountPct": 44,
+      "minPurchase": "6 flasker",
+      "validUntil": "Så længe lager haves (Black Weeks)",
+      "retailer": "Philipson Wine",
+      "url": "https://philipsonwine.com/produkter/2025-meursault-cuvee-saint-jean-domaine-vincent-latour",
+      "image": "https://philipsonwine.com/Files/Images/Ecom/Products/60831125.png",
+      "why": ""
+    },
+    {
       "producer": "Bouchard Père & Fils",
       "wine": "Beaune du Château 1er Cru Blanc",
       "appellation": "Beaune 1er Cru",
@@ -99,7 +116,7 @@
       "priceNote": "pr. flaske, normalpris. Den røde Beaune du Château 1er Cru 2023 har samme tilbud",
       "discountPct": 32,
       "minPurchase": "Ingen (1 flaske)",
-      "validUntil": "31. december (år ikke angivet)",
+      "validUntil": "31. december",
       "retailer": "Erik Sørensen Vin",
       "url": "https://eriksorensenvin.dk/produkter/hvidvin-frankrig-bourgogne-hvidvin-frankrig-bourgogne-bouchard-pere-et-fils-beaune-du-chateau-1-cru-2023",
       "image": "https://checkout.eriksorensenvin.dk/wp-content/uploads/2026/10/hvidvin-frankrig-bourgogne-bouchard-pere-et-fils-beaune-du-chateau-blanc-premier-cru-for.png",
@@ -113,7 +130,7 @@
       "colour": "rod",
       "offerPrice": "499,95 kr.",
       "normalPrice": "729,95 kr.",
-      "priceNote": "pr. flaske, overstreget pris uden betegnelse (aflæst på oversigtsside). Wine Spectator 91 point (oplyst af forhandleren)",
+      "priceNote": "pr. flaske ved 1 stk., overstreget pris uden betegnelse, 'SPAR 32%' (aflæst på oversigtsside)",
       "discountPct": 32,
       "minPurchase": "Ingen (1 flaske)",
       "validUntil": "Ikke oplyst",
@@ -140,62 +157,46 @@
       "why": ""
     },
     {
-      "producer": "Maison Louis Jadot",
-      "wine": "Chablis Chapelle aux Loups",
-      "appellation": "Chablis",
-      "vintage": "2025",
-      "colour": "hvid",
-      "offerPrice": "199 kr.",
-      "normalPrice": "299 kr.",
-      "priceNote": "pr. flaske, førpris. Vinoverset 93 point for 2025 (oplyst af forhandleren)",
+      "producer": "Hospices de Beaune",
+      "wine": "Volnay 1er Cru Cuvée Général Muteau",
+      "appellation": "Volnay 1er Cru",
+      "vintage": "2019",
+      "colour": "rod",
+      "offerPrice": "999 kr.",
+      "normalPrice": "1.499 kr.",
+      "priceNote": "pr. flaske ved 6 fl. (5.994 kr. for 6); normalpris for 1 flaske",
       "discountPct": 33,
-      "minPurchase": "Ingen (1 flaske)",
+      "minPurchase": "6 flasker",
       "validUntil": "Ikke oplyst",
-      "retailer": "Kjær & Sommerfeldt",
-      "url": "https://www.kjaersommerfeldt.dk/vin/hvidvin/maison-louis-jadot-chablis-chapelle-aux-loups-bourgogne-chablis-2025/p-1031050/",
-      "image": "https://cdn.kjaersommerfeldt.dk/products/1031050/hvidvin-frankrig-maison-louis-jadot-chablis-chapelle-aux-loups-bourgogne-chablis.png?width=0&height=300&format=webp&quality=80&rmode=Crop",
-      "why": ""
-    },
-    {
-      "producer": "Domaine Anne Gros",
-      "wine": "La Fun en Bulles Brut",
-      "appellation": "Crémant de Bourgogne",
-      "vintage": "Uden årgang",
-      "colour": "mousserende",
-      "offerPrice": "197,95 kr.",
-      "normalPrice": "329,95 kr.",
-      "priceNote": "pr. flaske ved 1 stk., overstreget pris uden betegnelse (aflæst på oversigtsside)",
-      "discountPct": 40,
-      "minPurchase": "Ingen (1 flaske)",
-      "validUntil": "Ikke oplyst",
-      "retailer": "Theis Vine",
-      "url": "https://www.theis-vine.dk/products/la-fun-en-bulles-brut-cremant-de-bourgogne-domaine-anne-gros?variant=63223641866627",
-      "image": "https://www.theis-vine.dk/cdn/shop/files/50086.png?v=1793821311&width=400",
+      "retailer": "Løgismose",
+      "url": "https://www.loegismose.dk/produkter/volnay-1-cru-cuvee-general-muteau/74411/",
+      "image": "https://cdn.pim.loegismose.dk/media/w4vly5km/loegismose-roedvin-hospices-de-beaune-volnay-1-cru-cuvee-general-muteau-2019-217063.png?width=1440&format=webp&anchor=center&rnd=133226154750330000&heightratio=1+%2F+1%7D",
       "why": ""
     }
   ],
   "checkedRetailers": [
-    "Supervin",
-    "Jysk Vin",
+    "Supervin (delvist)",
+    "Jysk Vin (delvist)",
     "Kjær & Sommerfeldt (delvist)",
     "Erik Sørensen Vin",
     "Vinova (delvist)",
-    "Andrup Vin (delvist)",
-    "Bichel (delvist)",
     "Theis Vine (kun oversigtssider)",
     "Laudrup Vin (kun oversigtssider)",
     "Philipson Wine (delvist)",
-    "Løgismose (delvist)"
+    "Løgismose (delvist)",
+    "Holte Vinlager (delvist)",
+    "Vinens Verden/wine.dk (kun forside)"
   ],
   "unreachable": [
-    "Andrup Vin: Black Week 2026-siden og Bourgogne-/udsalgslisterne blev blokeret af bot-tjek eller indlæses med JavaScript",
-    "Bichel: tilbudssiden gav serverfejl; kun producentsiden for Patrice Rion kunne læses",
+    "Andrup Vin: alle tilbuds-, kategori- og produktsider blev blokeret af bot-tjek eller indlæses med JavaScript",
+    "Bichel: ingen side kunne hentes",
+    "Vinspecialisten: ingen webshop med Bourgogne-tilbud fundet",
     "Theis Vine: alle produktsider og Black Month-siden blev afvist; priser og billeder er fra oversigtssider",
-    "Laudrup Vin: alle produktsider blev afvist; priser er fra oversigtssider og billeder mangler",
-    "Vinova: flere produktsider og tilbudssiden kunne ikke læses",
-    "Philipson Wine: tilbudslister indlæses med JavaScript",
-    "Kjær & Sommerfeldt: Black Friday Bourgogne-kampagnens produktliste var tom",
-    "Vinspecialisten: ingen webshop med Bourgogne-tilbud fundet"
+    "Laudrup Vin: alle produktsider og Bourgogne-kategorierne blev afvist; billeder mangler",
+    "Vinova: tilbudssiden og flere produktsider kunne ikke læses",
+    "Jysk Vin: flere produktsider kunne ikke hentes, og tilbudsnedtællingerne viste 0",
+    "Philipson Wine: tilbuds- og lagersalgslister indlæses med JavaScript",
+    "Kjær & Sommerfeldt: Black Friday Bourgogne-kampagnens produktliste var tom"
   ],
-  "note": "Overstreget pris: førpris hos Kjær & Sommerfeldt, normalpris hos Erik Sørensen Vin, 'oprindelig pris' hos Vinova og en pris uden betegnelse hos Laudrup og Theis Vine. Rabatprocenter er som vist af forhandleren eller beregnet ud fra de to viste priser. Point er kun nævnt, hvor forhandleren oplyser dem. Kjær & Sommerfeldts Black Friday Bourgogne-kampagne løber til søndag 29. november kl. 23.59, men det kunne ikke bekræftes, hvilke vine den omfatter. Laudrups Philippe le Hardi Meursault 2022 er nu udsolgt og udgår. Andre tilbud uden plads: Erik Sørensen Marchand-Tawse Pommard Les Saussilles 2022 (475 kr., normalpris 690 kr.); Kjær & Sommerfeldt Domaine Livera Chapelle-Chambertin Grand Cru 2018 (1.950 kr., før 2.454 kr.) og Prieur-Brunet Santenay Blanc 2022 (289 kr., før 493 kr.); Laudrup Philippe le Hardi Gevrey-Chambertin Champerrier du Dessus 2022 (629 kr., overstreget 1.005 kr.); Vinova Gaunoux Pommard Les Perrières 2021 (295 kr., oprindelig 530 kr.); Theis Vine Taupenot-Merme Gevrey-Chambertin 2023 (739,95 kr., overstreget 1.059,95 kr.); Jysk Vin Denis Carré Saint-Aubin 1er Cru Les Combes au Sud 2024 (480 kr., før 595 kr.) og Pommard 1er Cru Les Charmots 2024 (489 kr., før 655 kr.) – Jysk Vins nedtælling viste 0, så gyldigheden er usikker; Bichel Patrice Rion Nuits-Saint-Georges 1er Cru Les Hauts Pruliers 2020 (799 kr. ved 2 fl., vejl. pris 899 kr.); Philipson Vougeraie Gevrey-Chambertin 2022 (795 kr. ved 6 fl., 1 fl. 954,95 kr.); Løgismose Hospices de Beaune Volnay 1er Cru Cuvée Général Muteau 2019 (999 kr. ved 6 fl., normal 1.499 kr.). Supervins Bourgogne-priser er 6-flaskers 'bedste pris' mod 1-flaske-pris uden reel kampagne og er fravalgt. Andrup Vins fundne timetilbud er fra 2025 og er fravalgt. Dækningen er ikke fuldstændig: ofte kunne kun første side af lister læses."
+  "note": "Overstreget pris: førpris hos Kjær & Sommerfeldt, normalpris hos Erik Sørensen Vin og Løgismose, 'oprindelig pris' hos Vinova, 1-flaskeprisen hos Philipson og en pris uden betegnelse hos Laudrup og Theis Vine. Rabatprocenter er som vist af forhandleren eller beregnet ud fra de to viste priser. Point er kun nævnt, hvor forhandleren oplyser dem. Kjær & Sommerfeldts Black Friday Bourgogne-kampagne løber til søndag 29. november kl. 23.59, men det kunne ikke bekræftes, hvilke vine den omfatter. Andre tilbud uden plads: Kjær & Sommerfeldt Domaine Livera Chapelle-Chambertin Grand Cru 2018 (1.950 kr., før 2.454 kr.) og Jadot Chablis Chapelle aux Loups 2025 (199 kr., før 299 kr.); Erik Sørensen Bouchard Beaune du Château 1er Cru Rouge 2023 (400 kr., normalpris 590 kr.) og Marchand-Tawse Pommard Les Saussilles 2022 (475 kr., normalpris 690 kr.); Vinova Gaunoux Volnay 1er Cru Les Brouillards 2016 (395 kr., oprindelig 705 kr.) og Pommard Les Perrières 2021 (295 kr., oprindelig 530 kr.); Laudrup Louis Latour Gevrey-Chambertin 2023 og Philippe le Hardi Gevrey-Chambertin Champerrier du Dessus 2022 (begge 629 kr., overstreget 1.005 kr.); Theis Vine Taupenot-Merme Gevrey-Chambertin 2023 (739,95 kr., overstreget 1.059,95 kr.); Philipson Ballot-Millot Volnay 1er Cru Santenots 2022 (795 kr. ved 6 fl., 1 fl. 954,95 kr.); Supervin Stéphane Brocard Saint-Bris 2024 (89,95 kr. ved 6 fl., 1 fl. 149,95 kr., weekendtilbud). Jysk Vins Denis Carré-tilbud (fx Saint-Aubin 1er Cru Les Combes au Sud 2024 til 480 kr., før 595 kr.) er fravalgt, da nedtællingen viste 0 og gyldigheden er usikker. Supervins Black Friday-priser på Henri de Villamont og Amarine er fravalgt, fordi produkt- og oversigtssider viste forskellige priser. Dækningen er ikke fuldstændig: ofte kunne kun første side af lister læses."
 }
